@@ -21,6 +21,8 @@ The server is limited to handling 50 clients max.
 
 The name of the implemented malloc and free in the program , are: _malloc and _free.
 
+Stack.cpp is implemntation of stack for test uses.
+
 Running the program: 
 
 Download all of the files in the repo , make sure all the files are in the same directory. Open terminal in this directory and type: "make all"
