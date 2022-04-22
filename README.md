@@ -23,6 +23,10 @@ The name of the implemented malloc and free in the program , are: _malloc and _f
 
 Stack.cpp is implemntation of stack for test uses.
 
+If stack is empty when using TOP command a "STACK IS EMPTY" will appear on the clients terminal.
+
+If stack is not empty , a TOP: 'the string at the top' will appear on the clients terminal.
+
 Running the program: 
 
 Download all of the files in the repo , make sure all the files are in the same directory. Open terminal in this directory and type: "make all"
