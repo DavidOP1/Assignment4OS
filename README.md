@@ -32,7 +32,9 @@ To run the server : ./server
 
 To run the client : ./client
 
-TO run the test : ./Test
+To run the test : ./Test
+
+After running the test, if all test have passed , a "Test has been done successfully" message will appear in the terminal.
 
 Example of the runnning program: 
 
