@@ -1,2 +1,38 @@
 # Assignment4OS
 Server stack
+
+Name: David Ehevich
+
+Name: Liel Zilberman
+
+*Sources :
+
+Malloc & free implemntation: https://stackoverflow.com/questions/5422061/malloc-implementation
+
+Stack using linekd list , used for idea : https://www.scaler.com/topics/c/stack-using-linked-list-in-c/
+
+Assignment 4 in OS course: 
+
+Implement a stack in a server which multiple clients can access and manipulate the stack , the stack is lock free.
+
+*NOTES:
+
+The server is limited to handling 50 clients max.
+
+The name of the implemented malloc and free in the program , are: _malloc and _free.
+
+Running the program: 
+
+Download all of the files in the repo , make sure all the files are in the same directory. Open terminal in this directory and type: "make all"
+This will compile server.cpp , client.cpp and Test.cpp.
+
+After compiling all the necessary file:
+
+To run the server : ./server
+
+To run the client : ./client
+
+TO run the test : ./Test
+
+Example of the runnning program: 
+
