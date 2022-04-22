@@ -40,3 +40,6 @@ After running the test, if all test have passed , a "Test has been done successf
 
 Example of the runnning program: 
 
+![example](https://user-images.githubusercontent.com/54214707/164759511-ad2f25df-8c6e-4fe5-81a5-2a2bcc89fd42.PNG)
+
+
