@@ -9,7 +9,6 @@ Name: Liel Zilberman
 
 Malloc & free implemntation: https://stackoverflow.com/questions/5422061/malloc-implementation
 
-Stack using linekd list , used for idea : https://www.scaler.com/topics/c/stack-using-linked-list-in-c/
 
 Assignment 4 in OS course: 
 
@@ -41,6 +40,14 @@ To run the client : ./client
 To run the test : ./Test
 
 After running the test, if all test have passed , a "Test has been done successfully" message will appear in the terminal.
+
+Stack supported command , from clients terminal : 
+
+PUSH "string" : will push the string to the top of the stack.
+
+TOP : will display on the client's terminal the string last entered to the stack (LIFO).
+
+POP: will pop the last entered string to the stack.
 
 Example of the runnning program: 
 
