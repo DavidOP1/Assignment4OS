@@ -9,7 +9,7 @@ client:
 	clang client.cpp -o client 
 test:
 	clang++ Test.cpp -o Test
-cleanNew:
+clean:
 	rm -rf server
 	rm -rf client
 	rm -rf Test
