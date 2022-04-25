@@ -69,8 +69,7 @@ char * TOP() {
     if (head == NULL) {
         return "STACK IS EMPTY";
     } else {
-        Node *temp = head;
-        return temp->data;
+        return head->data;
     }
 }
 
@@ -78,8 +77,7 @@ char * TOP() {
 
 void PUSH(char * value) {
     Node *newNode;
-    //newNode = (struct Nodes*)calloc(1,sizeof(struct Nodes));
-    //Malloc implemented by us.
+    //malloc implemented by us
     newNode = (struct Nodes*)_malloc(sizeof(struct Nodes));
     memset(newNode,0,sizeof(struct Nodes));
     strcpy(newNode->data,value);
@@ -93,15 +91,13 @@ void PUSH(char * value) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////TOP COMMAND///////////////////////////////////
 
-char * POP() {
+void POP() {
     if (head == NULL) {
-        return "STACK IS EMPTY";
+        //do nothing
     } else {
         Node *temp = head;
-        char * tempData = head->data;
         head = head->next;
         _free(temp);
-        return tempData;
     }
 }
 
